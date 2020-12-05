@@ -45,3 +45,7 @@ lerna-debug.log*
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+#Docker scripts
+!/Dockerrun.aws.json
+/scripts/
