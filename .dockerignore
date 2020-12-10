@@ -13,6 +13,14 @@ lerna-debug.log*
 # OS
 .DS_Store
 
+#Ignoring git and cache folders
+.git
+.cache
+
+#Ignoring all the markdown and class files
+*.md
+**/*.class
+
 # Tests
 /coverage
 /.nyc_output
@@ -32,6 +40,7 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
@@ -39,4 +48,4 @@ lerna-debug.log*
 
 #Docker scripts
 !/Dockerrun.aws.json
-!/scripts/
+/scripts/
